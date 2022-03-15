@@ -76,4 +76,3 @@ plt.plot(list(range(itr)), b_list, '-r', label = 'Weight 3')
 plt.legend(['Weight 0','Weight 1','Bias'])
 plt.title("Weight/Bias Vs Iteration")
 plt.show()
-itr = itr + 1

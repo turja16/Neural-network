@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
 
         error_list.append(cum_error)
-        b_list.append(b)
+        b_list.append(b.item(0,0))
         w0_list.append(W.item(0, 0))
         w1_list.append(W.item(0, 1))
         itr = itr + 1
@@ -83,4 +83,3 @@ plt.legend(['Weight 0','Weight 1','Bias'])
 plt.title("Weight/Bias Vs Iteration")
 
 plt.show()
-itr = itr + 1
